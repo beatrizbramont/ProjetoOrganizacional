@@ -24,5 +24,9 @@ app.get('/', (req, res) => {
   res.redirect('/lembretes');
 });
 
+app.listen(8001, () => {
+  console.log('Servidor rodando na porta 8001');
+});
+
 // Exportar app se quiser separar server.js
 module.exports = app;

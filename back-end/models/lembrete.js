@@ -22,7 +22,7 @@ const Lembrete = sequelize.define('Lembrete', {
   },
   hora: {
     type: DataTypes.TIME,
-    allowNull: 'ativo',
+    allowNull: true,
   },
 });
 
@@ -31,7 +31,4 @@ Lembrete.belongsTo(User, { foreignKey: 'userId' });
 User.hasMany(Lembrete, { foreignKey: 'userId' });
 
 
-module.exports = {
-  Lembrete,
-  sequelize,
-};
+module.exports = Lembrete
