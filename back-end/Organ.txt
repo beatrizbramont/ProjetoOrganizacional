@@ -1,0 +1,104 @@
+Site ou aplicativo que fará/terá:
+- calendário
+- "bloco de notas"
+- Despertador
+
+🔰 ETAPA 1: Estrutura Base e Funcional
+Objetivo: Criar a base funcional da agenda
+
+ Criar estrutura de pastas com padrão MVC (models, views, controllers, routes)
+
+ Criar model de User com: nome, email, senha hash, tema - OK
+
+ Criar model de Reminder com: título, descrição, dataHora, status, userId - OK
+
+ Criar conexão com banco de dados (Sequelize)
+
+ Implementar tela de cadastro/login (com bcrypt para senha)
+
+ Criar sistema de sessão (login/logout)
+
+ CRUD de lembretes:
+
+ Criar lembrete
+
+ Listar lembretes do usuário
+
+ Editar lembrete
+
+ Excluir lembrete
+
+ Criar frontend com EJS (views): login, cadastro, lista de lembretes, formulário
+
+🎨 ETAPA 2: Personalização e Experiência do Usuário
+Objetivo: melhorar visual e usabilidade
+
+ Permitir troca de tema (salvar no banco)
+
+ Adicionar tema claro/escuro
+
+ Criar página “minha conta” para alterar dados
+
+ Permitir bloco de notas separado dos lembretes
+
+ Criar layout responsivo com CSS moderno (ou Tailwind, Bootstrap)
+
+ Adicionar campo de busca nos lembretes
+
+🚀 ETAPA 3: Diferenciais Técnicos
+Objetivo: trazer impacto ao projeto
+
+ Criar notificações no navegador (Notification API)
+
+ Disparar lembretes em tempo real com setTimeout e notificações
+
+ Enviar lembretes por e-mail (nodemailer)
+
+ Adicionar gravação de lembrete por voz com transcrição (Web Speech API)
+
+ Criar dashboard com widgets (ex: calendário, tarefas, blocos de notas)
+
+ Criar login com conta do Google (passport-google-oauth)
+
+🧠 ETAPA 4: Funcionalidades Ousadas (opcionais)
+Objetivo: transformar o projeto em portfólio de destaque
+
+ Criar edição colaborativa de lembretes com WebSockets (socket.io)
+
+ Permitir compartilhamento de lembrete com outro usuário
+
+ Exportar lembretes como .ics (formato calendário)
+
+ Criar modo foco com timer Pomodoro
+
+ Criar painel com gráficos de produtividade (Chart.js)
+
+ Criar sistema de priorização automática de lembretes
+
+ Adicionar PWA (instalável no celular, funciona offline)
+
+ Detectar presença com webcam (reconhecimento facial)
+
+🧩 Extras para fechamento do projeto:
+ Criar README explicativo no GitHub
+
+ Criar vídeo curto apresentando o projeto
+
+ Fazer publicação no LinkedIn com suas decisões técnicas
+
+ Adicionar testes automatizados com Jest (opcional)
+
+
+🔉 Alerta sonoro ou pop-up no front-end
+3. 📱 Instalável como PWA (Progressive Web App)
+Faça com que o site funcione como um aplicativo de celular!
+
+Mesmo offline, com notificações e ícone na tela.
+4. 🤖 Assistente inteligente de lembretes
+Um campo “inteligente” que entende frases como:
+
+“Me lembre de beber água às 15h”
+
+Você pode usar parsing simples com regex, ou usar APIs de IA.
+
+💡 Mostra criatividade + habilidade em interpretar dados.
