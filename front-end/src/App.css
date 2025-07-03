@@ -1,18 +1,40 @@
+/* Container geral */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Menu de navegação */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  background-color: #282c34;
+  justify-content: center;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu li {
+  display: inline;
 }
 
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
+
+
+.title {
+  margin: 5px 0;
+  color: #333;
+}
+
+/* Caso queira centralizar e estilizar o header com estilo escuro */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,10 +46,13 @@
   color: white;
 }
 
+/* Link do App */
 .App-link {
   color: #61dafb;
+  align-items: center;
 }
 
+/* Animação */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

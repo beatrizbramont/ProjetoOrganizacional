@@ -13,5 +13,33 @@ code {
     monospace;
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #282c34;
+  color: white !important; /* força a cor branca */
+  text-align: center;
+  padding: 20px 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.header h1,
+.header p {
+  margin: 0;
+  padding: 0;
+  color: inherit; /* herda o branco */
+  font-weight: normal;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
 
 /* linear-gradient(#223a16); */
