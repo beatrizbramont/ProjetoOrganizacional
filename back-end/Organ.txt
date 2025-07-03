@@ -102,3 +102,6 @@ Um campo “inteligente” que entende frases como:
 Você pode usar parsing simples com regex, ou usar APIs de IA.
 
 💡 Mostra criatividade + habilidade em interpretar dados.
+
+
+NO FRONT > Fazer o botão de salvar funcionar e jogar para o banco de dados

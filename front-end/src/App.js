@@ -1,6 +1,6 @@
 import React from "react";
 import LembreteList from "./components/lembreteList";
-import LembreteForm from "./components/lembreteform";
+import LembreteForm from "./components/lembreteForm";
 
 function App() {
   return (

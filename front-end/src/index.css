@@ -5,9 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right,rgb(40, 85, 143),rgb(83, 140, 163),rgb(41, 174, 184) ,rgb(83, 140, 163), rgb(40, 85, 143));  color: #121211;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* linear-gradient(#223a16); */
